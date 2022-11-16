@@ -4,7 +4,7 @@ const db = require('./db');
 const Post = require('./Post')
 
 const Comodo = db.sequelize.define('Comodo', {
-    Nome: {
+    Name: {
         type: db.Sequelize.STRING
     },
     Mobiliado: {
