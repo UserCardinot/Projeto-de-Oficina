@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const Post = require('../models/Post')
+const Comodo = require('../models/Comodo')
 
 const app = express()
 const PORTA = 3000
