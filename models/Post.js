@@ -1,5 +1,4 @@
 const { STRING, DatabaseError } = require('sequelize');
-const Comodo = require('./Comodo');
 const { sequelize } = require('./db');
 const db = require('./db');
 
@@ -39,5 +38,5 @@ const Post = db.sequelize.define('imovel', {
     }
 });
 
-
+//Post.sync(({force: true})
 module.exports = Post;
