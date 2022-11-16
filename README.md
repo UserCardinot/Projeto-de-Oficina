@@ -6,3 +6,5 @@ npm install --save express
 npm install --save bodyparser
 
 npm install --save sequelize
+
+npm install --save mysql2
